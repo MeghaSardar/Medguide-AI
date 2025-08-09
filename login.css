@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: url('.//cancer\ logo.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5%;
+  position: relative;
+}
+
+.login-box,
+.signup-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-box h2,
+.signup-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-box input,
+.signup-box input {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-box button,
+.signup-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box .google-btn {
+  background-color: #db4437;
+  margin-top: 10px;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #666;
+}
+
+.signup-link {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.signup-link a {
+  color: #007BFF;
+  text-decoration: none;
+}
