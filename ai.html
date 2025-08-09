@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medguide AI Chat</title>
+  <link rel="stylesheet" href="ai.css" />
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="logo">🩺 Medguide AI</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <button class="get-started">Get Started</button>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <!-- Upload Section -->
+    <aside class="upload-section">
+      <h3>Upload Scan</h3>
+      <p>Drag & drop or browse your PDF or image files here.</p>
+      <button class="browse-button">Browse Files</button>
+    </aside>
+
+    <!-- Chat Section -->
+    <section class="chat-section">
+      <h2>AI Chat</h2>
+      <div class="chat-box">
+        <div class="chat ai">🧑‍⚕️ <strong>AI Assistant:</strong> Hi! Please upload your scan for analysis.</div>
+        <br>
+        <div class="chat user">🙋 <strong>User:</strong> I've uploaded my scan.</div>
+        <br>
+        <div class="chat ai">🧑‍⚕️ <strong>AI Assistant:</strong> Analyzing now...</div>
+
+        <div class="progress-bar-container">
+          <div class="progress-label">Analysis Progress</div>
+          <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+        </div>
+
+        <div class="chat ai">🧑‍⚕️ <strong>AI Assistant:</strong> Report ready in 60 seconds</div>
+        <div class="chat ai">🧑‍⚕️ <strong>AI Assistant:</strong> 
+          AI Summary: Detection result: <strong>Negative</strong>. Confidence score: <strong>95%</strong>. 
+          Recommended next steps: Routine check.
+        </div>
+        <div class="chat ai">🧑‍⚕️ <strong>AI Assistant:</strong> Would you like to consult a doctor?</div>
+        <br>
+
+        <button class="consult-button">Consult a Doctor</button>
+      </div>
+
+      <footer class="chat-footer">
+        <input type="text" placeholder="Type your message..." />
+        <button class="send-button">➤</button>
+      </footer>
+    </section>
+  </main>
+
+</body>
+</html>
